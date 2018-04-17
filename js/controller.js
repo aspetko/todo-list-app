@@ -38,7 +38,7 @@
 		});
 
 		self.view.bind('removeCompleted', function () {
-			self.removeCompletedItems();
+            self.removeCompletedItems();
 		});
 
 		self.view.bind('toggleAll', function (status) {
